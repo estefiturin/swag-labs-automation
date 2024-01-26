@@ -1,4 +1,4 @@
-package com.swag.pe.definitions;
+package com.swag.pe.definitions.login;
 
 import com.swag.pe.steps.login.LoginStep;
 import com.swag.pe.steps.validation.ValidationStep;
@@ -6,7 +6,6 @@ import com.swag.pe.utilities.website.WebSite;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
 
@@ -49,6 +48,8 @@ public class LoginDef {
     public void systemShowErrorMessage() {
         Assert.assertTrue(validate.errorMessageIsDisplayed());
     }
+
+
 
 
 
